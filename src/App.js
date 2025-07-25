@@ -2,34 +2,29 @@
 function App() {
   return (
     <div>
-      <h1>Hi, I'm Julius</h1>
+      <h1>Hi, I'm Kedienye</h1>
 
       <img
-        src="https://your-photo-url.jpg"
-        alt="Portrait of Julius smiling"
+        src="/my-photo.jpg"
+        alt="Portrait of Kedienye"
+        style={{ width: "200px", borderRadius: "8px" }}
       />
 
       <h2>About Me</h2>
       <p>
-        I am a software developer passionate about building user-friendly web applications.
-        I love React, test-driven development, and solving real-world problems with code.
+        I am a software developer passionate about building impactful, user-friendly web
+        applications using modern technologies.
       </p>
 
-      <a
-        href="https://github.com/your-username"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        GitHub
-      </a>
-      <br />
-      <a
-        href="https://linkedin.com/in/your-username"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        LinkedIn
-      </a>
+      <p>
+        <a href="https://github.com/your-github" target="_blank" rel="noreferrer">
+          GitHub
+        </a>{" "}
+        |{" "}
+        <a href="https://linkedin.com/in/your-linkedin" target="_blank" rel="noreferrer">
+          LinkedIn
+        </a>
+      </p>
     </div>
   );
 }
